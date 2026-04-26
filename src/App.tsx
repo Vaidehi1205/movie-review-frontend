@@ -42,7 +42,6 @@ export default function App() {
   });
 
   const [comparison, setComparison] = useState<ComparisonItem[]>([]);
-  const [graph, setGraph] = useState<string>("");
 
   // 🔥 Heatmap color function
   const getHeatmapColor = (value: number, max: number) => {
